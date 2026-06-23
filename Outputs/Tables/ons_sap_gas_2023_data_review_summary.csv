@@ -1,0 +1,2 @@
+raw_file,processed_file,rows,columns,start_date,end_date,missing_values,frequency
+ons_sap_gas_2023_raw.xlsx,ons_sap_gas_2023_clean.csv,351,3,2023-01-01,2023-12-17,0,Daily
