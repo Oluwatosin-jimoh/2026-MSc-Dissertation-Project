@@ -8,7 +8,7 @@
 
 This repository contains the code, data structure, outputs and project notes for my MSc Data Analytics dissertation.
 
-The project focuses on forecasting energy market risk using publicly available energy market data. It will explore how demand, renewable generation, carbon intensity and selected gas market indicators can be used to identify and forecast periods of elevated energy market risk.
+The project focuses on forecasting energy market risk using publicly available energy market data. It explores how electricity demand, renewable generation, carbon intensity and selected gas market indicators can be used to identify and forecast periods of elevated energy market risk.
 
 The dissertation falls under the **time-series forecasting** category and will compare suitable statistical and machine-learning approaches.
 
@@ -33,17 +33,15 @@ The aim of this project is to develop a data-driven forecasting framework for id
 * Evaluate model performance using suitable forecasting metrics.
 * Interpret the results in relation to commercial energy analytics and revenue assurance.
 
-## Proposed Data Sources
+## Data Sources Reviewed
 
-The project is expected to use publicly available datasets, including:
+The initial data source review has considered the following publicly available datasets:
 
-* UK electricity demand data
-* Wind and solar generation data
-* Carbon intensity data
-* Selected gas market indicators
-* Calendar and time-based variables for seasonality analysis
+* **NESO Historic Demand Data 2023**: electricity demand, wind generation and solar generation.
+* **Carbon Intensity API 2023**: forecast carbon intensity, actual carbon intensity and carbon intensity index.
+* **ONS System Average Price of Gas 2023**: daily System Average Price of gas and seven-day rolling average.
 
-The final data sources will be confirmed after initial data collection, cleaning and suitability checks.
+These datasets will be used to support the construction of a wider energy market risk dataset. Further cleaning, alignment and integration will be completed in later stages of the project.
 
 ## Proposed Methodology
 
@@ -51,12 +49,13 @@ The project will follow a structured data analytics workflow:
 
 1. Data collection
 2. Data cleaning and preprocessing
-3. Exploratory data analysis
-4. Feature engineering
-5. Time-series forecasting
-6. Model comparison
-7. Evaluation of forecasting performance
-8. Commercial interpretation of results
+3. Data integration
+4. Exploratory data analysis
+5. Feature engineering
+6. Time-series forecasting
+7. Model comparison
+8. Evaluation of forecasting performance
+9. Commercial interpretation of results
 
 Potential modelling approaches may include baseline forecasting, ARIMA/SARIMA, regression-based forecasting and machine-learning models such as Random Forest or Gradient Boosting.
 
@@ -64,22 +63,27 @@ Potential modelling approaches may include baseline forecasting, ARIMA/SARIMA, r
 
 ```text
 2026-MSc-Dissertation-Project/
- Data/
-   ─ raw/              # Original downloaded datasets
-   ─ processed/        # Cleaned and processed datasets
-
-Notebooks/            # Jupyter notebooks for data analysis and modelling
-
-Outputs/              # Figures, tables and model outputs
-  - Figures            
-  - Tables
-
-README.md             # Project overview and repository guide
+│
+├── Data/
+│   ├── raw/              # Original downloaded datasets
+│   └── processed/        # Cleaned and processed datasets
+│
+├── Notebooks/            # Jupyter notebooks for data review, analysis and modelling
+│
+├── Outputs/
+│   ├── figures/          # Saved charts and visual outputs
+│   └── tables/           # Saved summary tables and review outputs
+│
+└── README.md             # Project overview and repository guide
 ```
 
 ## Current Status
 
-The project is currently in the initial setup and planning stage. The next steps are to finalise the project scope, collect the initial datasets, prepare the Overleaf project notes and begin exploratory data analysis.
+The project is currently in the initial data review stage. The project structure has been created, the GitHub repository has been set up, and the first data source review notebook has been developed.
+
+The datasets reviewed so far include NESO Historic Demand Data, Carbon Intensity API data and ONS System Average Price of Gas data. Initial checks have been completed for file structure, date coverage, frequency, missing values and suitability for the dissertation.
+
+The next stage will focus on cleaning, aligning and integrating the selected datasets into a combined time-series dataset for exploratory analysis and modelling.
 
 ## Author
 
