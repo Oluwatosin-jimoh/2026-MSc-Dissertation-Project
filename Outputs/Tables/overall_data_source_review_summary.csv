@@ -1,0 +1,4 @@
+dataset,file,frequency,start,end,rows,missing_values,main_variables
+NESO Historic Demand Data,neso_demand_wind_solar_2023_clean.csv,Half-hourly,2023-01-01 00:00:00,2023-12-31 23:30:00,17520,0,"Demand, wind generation, solar generation"
+Carbon Intensity API,carbon_intensity_2023_raw.csv,Half-hourly,2023-01-01 00:00:00+00:00,2023-12-31 23:30:00+00:00,17429,5,"Forecast intensity, actual intensity, intensity index"
+ONS System Average Price of Gas,ons_sap_gas_2023_clean.csv,Daily,2023-01-01 00:00:00,2023-12-17 00:00:00,351,0,"SAP actual price, seven-day rolling average"
