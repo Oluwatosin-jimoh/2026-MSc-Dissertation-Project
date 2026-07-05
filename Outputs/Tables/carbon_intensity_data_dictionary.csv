@@ -1,0 +1,6 @@
+processed_file,column_name,description,unit_or_measurement
+carbon_intensity_2023_clean.csv,from,Start timestamp for each half-hourly carbon intensity interval.,Datetime
+carbon_intensity_2023_clean.csv,to,End timestamp for each half-hourly carbon intensity interval.,Datetime
+carbon_intensity_2023_clean.csv,forecast_intensity,Forecast carbon intensity for the half-hourly interval.,gCO2/kWh
+carbon_intensity_2023_clean.csv,actual_intensity,Actual observed carbon intensity for the half-hourly interval.,gCO2/kWh
+carbon_intensity_2023_clean.csv,intensity_index,Categorical carbon intensity level provided by the API.,Category
