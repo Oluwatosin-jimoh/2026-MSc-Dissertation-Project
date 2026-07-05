@@ -1,2 +1,2 @@
-raw_file,rows,columns,start_datetime,end_datetime,missing_actual_intensity_values,missing_half_hour_timestamps,frequency
-carbon_intensity_2023_raw.csv,17429,5,2023-01-01 00:00:00+00:00,2023-12-31 23:30:00+00:00,5,91,Half-hourly
+source,processed_file,rows,columns,start_datetime,end_datetime,missing_actual_intensity_values,missing_half_hour_timestamps,frequency,unit
+Carbon Intensity API,carbon_intensity_2023_clean.csv,17429,5,2023-01-01 00:00:00+00:00,2023-12-31 23:30:00+00:00,5,91,Half-hourly,gCO2/kWh
