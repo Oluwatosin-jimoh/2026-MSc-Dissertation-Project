@@ -1,0 +1,14 @@
+processed_file,column_name,description,unit_or_measurement
+neso_demand_wind_solar_2023_clean.csv,datetime,Half-hourly timestamp for each electricity system observation.,Datetime
+neso_demand_wind_solar_2023_clean.csv,date,Calendar date used for daily aggregation and merging with daily datasets.,Date
+neso_demand_wind_solar_2023_clean.csv,settlement_period,Half-hourly settlement period number within each day.,Settlement period
+neso_demand_wind_solar_2023_clean.csv,national_demand,National electricity demand.,MW
+neso_demand_wind_solar_2023_clean.csv,transmission_system_demand,Electricity demand on the transmission system.,MW
+neso_demand_wind_solar_2023_clean.csv,england_wales_demand,Electricity demand for England and Wales.,MW
+neso_demand_wind_solar_2023_clean.csv,wind_generation,Embedded wind generation.,MW
+neso_demand_wind_solar_2023_clean.csv,solar_generation,Embedded solar generation.,MW
+neso_demand_wind_solar_2023_clean.csv,hour,Hour of the day created from the timestamp.,Hour number
+neso_demand_wind_solar_2023_clean.csv,day,Day of the month created from the timestamp.,Day number
+neso_demand_wind_solar_2023_clean.csv,month,Month of the year created from the timestamp.,Month number
+neso_demand_wind_solar_2023_clean.csv,weekday,Day name created from the timestamp.,Day name
+neso_demand_wind_solar_2023_clean.csv,is_weekend,Boolean indicator showing whether the observation falls on a weekend.,True/False
