@@ -1,0 +1,2 @@
+dataset,file_name,rows,columns,start_date,end_date,missing_values
+Integrated energy market risk dataset,integrated_energy_market_risk_2023.csv,350,13,2023-01-01,2023-12-17,0
