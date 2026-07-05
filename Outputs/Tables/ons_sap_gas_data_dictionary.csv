@@ -1,0 +1,4 @@
+processed_file,column_name,description,unit_or_measurement
+ons_sap_gas_2023_clean.csv,date,Daily date for each gas price observation.,Date
+ons_sap_gas_2023_clean.csv,sap_actual_p_per_kwh,Actual System Average Price of gas for the day.,p/kWh
+ons_sap_gas_2023_clean.csv,sap_7day_rolling_average_p_per_kwh,Preceding seven-day rolling average of the System Average Price of gas.,p/kWh
